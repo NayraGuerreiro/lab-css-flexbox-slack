@@ -8,3 +8,159 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+#container {
+  width: 425px;
+  overflow: hidden;
+}
+
+.style-logo {
+  width: 96px;
+  padding: 20px 10px;
+}
+
+.header-icons {
+  padding: 20px 10px;
+}
+
+.style-background {
+  background-color: #540b51;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: -1;
+}
+
+.style-background2 {
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.style-search {
+  background: none;
+  border: none;
+}
+
+.header-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.style-h1 {
+  color: white;
+  font-size: 44px;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+.buttom-style {
+  font-size: 14px;
+  color: #540b51;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 400px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.buttom-style2 {
+  font-size: 14px;
+  color: white;
+  background-color: #4285f4;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 56px;
+  text-align: start;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  margin-top: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.color {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.color-span {
+  color: #ecb12f;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.box {
+  width: 22px;
+  border: solid 0px;
+  padding: 10px;
+  background-color: white;
+  margin-right: 70px;
+  border-radius: 2px;
+}
+
+.hero-product-image {
+  height: 280px;
+  padding: 20px 0px;
+  margin-left: -30px;
+}
+
+.hero-product-image img {
+  width: 659px;
+}
+
+main {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.logo-section {
+  background-color: #f3eae2;
+  height: 230px;
+}
+
+.logo-section p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.companies-logo {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.companies-logo img {
+  height: 36px;
+  margin: 10px 10px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #container {
+    width: 1200px;
+  }
+}
